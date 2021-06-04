@@ -21,24 +21,24 @@
 ### 4. Install Oh My Posh
 
 - Open powershell with administrator privileges.
-- Install posh git:
+- Install posh git:<br/>
   `Install-Module posh-git -Scope CurrentUser`
-- Install oh-my-posh:
+- Install oh-my-posh:<br/>
   `Install-Module oh-my-posh -Scope CurrentUser`
 
 ### 5. Install PSReadline
 
-- Execute this command in powershell:
+- Execute this command in powershell:<br/>
   `Install-Module -Name PSReadLine -Scope CurrentUser -Force -SkipPublisherCheck`
 
 ### 6. Edit powershell config
 
-- In powershell, type:
+- In powershell, type:<br/>
   `notepad $PROFILE`
-- In the notepad window, paste the following:
-  `Import-Module posh-git`
-  `Import-Module oh-my-posh`
-  `Set-Theme ZASH`
+- In the notepad window, paste the following:<br/>
+  `Import-Module posh-git`<br/>
+  `Import-Module oh-my-posh`<br/>
+  `Set-Theme ZASH`<br/>
   `cls`
 
 ### 7. Add background image
@@ -48,7 +48,7 @@
 
 ### 8. Edit the settings json
 
-- Press Windows+R, if everything went right windows terminal will open.
+- Press Windows+R, type wt and press enter, if everything went right windows terminal will open.
 - From there open settings by tapping the small down arrow at the top.
   <img src="https://raw.githubusercontent.com/lazycodersadmin/wt-customize/main/images/2.png">
 - At the bottom left, tap the settings icon.
