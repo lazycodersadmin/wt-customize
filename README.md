@@ -35,7 +35,7 @@
 
 - In powershell, type:<br/>
   `notepad $PROFILE`
-- In the notepad window, paste the following:<br/>
+- In the notepad window, paste the following & save:<br/>
   `Import-Module posh-git`<br/>
   `Import-Module oh-my-posh`<br/>
   `Set-Theme ZASH`<br/>
