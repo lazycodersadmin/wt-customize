@@ -38,13 +38,12 @@
 - In the notepad window, paste the following & save:<br/>
   `Import-Module posh-git`<br/>
   `Import-Module oh-my-posh`<br/>
-  `Set-Theme ZASH`<br/>
+  `Set-PoshPrompt ZASH`<br/>
   `cls`
 
 ### 7. Add background image
 
-- Place your favourite background in `Documents/WindowsPowershell` folder.
-- Place the icon.png image from this directory to the same folder.
+- Copy the path of your image you want to set as terminal background (could be gif, jpg, png, jpeg).
 
 ### 8. Edit the settings json
 
